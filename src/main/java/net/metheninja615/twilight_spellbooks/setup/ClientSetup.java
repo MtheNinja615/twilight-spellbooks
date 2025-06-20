@@ -11,7 +11,7 @@ import twilightforest.client.renderer.entity.SlimeBeetleRenderer;
 public class ClientSetup {
     @SubscribeEvent
     public static void rendererRegister(EntityRenderersEvent.RegisterRenderers event) {
-        event.registerEntityRenderer(EntityRegistries.SUMMONED_SLIME_BEETLE.get(), SlimeBeetleRenderer::new);
+       event.registerEntityRenderer(EntityRegistries.SUMMONED_SLIME_BEETLE.get(),SlimeBeetleRenderer::new);
     }
     }
 
